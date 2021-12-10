@@ -1,0 +1,17 @@
+.list-navbar {
+    list-style-type: none; /* remove bullets */
+    margin: 0;
+    padding: 0;
+  }
+
+.list-navbar > li {
+    float: right;
+  }
+
+.list-navbar > li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
