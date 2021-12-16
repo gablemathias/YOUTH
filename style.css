@@ -1,3 +1,18 @@
+:root{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: black;
+  height: 50px;
+}
+
 .list-navbar {
     list-style-type: none; /* remove bullets */
     margin: 0;
@@ -10,7 +25,7 @@
 
 .list-navbar > li a{
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
