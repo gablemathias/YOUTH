@@ -1,32 +1,36 @@
 :root{
   font-family: 'Lora', serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body{
+  background-color:white;
   margin: 0;
   padding: 0;
 }
 
-.navbar{
+
+.list-navbar{
+  display: block;
+  height: 52px;
   background-color: black;
-  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.list-navbar {
-    list-style-type: none; /* remove bullets */
-    margin: 0;
-    padding: 0;
-  }
+.list-navbar > li{
+  float: right;
+}
 
-.list-navbar > li {
-    float: right;
-  }
+.list-navbar > li a { 
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
 
-.list-navbar > li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.item-navbar:hover{
+  background-color: rgb(255, 0, 0, 0.378);
 }
