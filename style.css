@@ -13,7 +13,7 @@ body{
   display: block;
   height: 52px;
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 0 5px;
   padding: 0;
   border-bottom: 1px solid black;
 }
@@ -35,7 +35,25 @@ body{
   color: rgba(70, 70, 70, 0.378);
 }
 
+#about_flex{
+  display: flex;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#about_flex_text{
+  flex: 0 0 auto;
+  max-width: 500px;
+  margin: 205px 0px 205px 0px;
+
+
+}
 .about{
-  margin: 10px;
-  font-size: 24px;
+    font-size: 24px;
+}
+
+.img_about{
+  height: 507px;
+  width: 323px;
+  margin: 20px;
 }
