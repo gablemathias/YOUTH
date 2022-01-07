@@ -1,5 +1,5 @@
 YOUTH! Label&Co Project
 
-This project is about a conceptual page for the brand that my brother and I are creating
+This project is about a conceptual page that brings some fashion pictures and tendencies
 
 Feel free to see the progress! :)
