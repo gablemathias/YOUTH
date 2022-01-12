@@ -1,4 +1,4 @@
-YOUTH! Label&Co Project
+YOUTH
 
 This project is about a conceptual page that brings some fashion pictures and tendencies
 
